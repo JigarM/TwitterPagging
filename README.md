@@ -31,8 +31,7 @@ See Sample Here : https://github.com/JigarM/TwitterPagging
 =========================
 
 ## Usage : 
-
-          JMTwitterPage *twitterPaggingViewer = [[JMTwitterPage alloc] init];
+	JMTwitterPage *twitterPaggingViewer = [[JMTwitterPage alloc] init];
           
           NSMutableArray *viewControllers = [[NSMutableArray alloc] initWithCapacity:7];
           NSArray *titles = @[@"Home", @"Friend", @"Mention", @"Message", @"Retweet", @"Mine", @"Trends"];
@@ -67,7 +66,6 @@ See Sample Here : https://github.com/JigarM/TwitterPagging
           twitterPaggingViewer.didChangedPageCompleted = ^(NSInteger cuurentPage, NSString *title) {
               NSLog(@"cuurentPage : %ld on title : %@", (long)cuurentPage, title);
           };
-	
 ###LICENCE
 
       The MIT License (MIT)
@@ -96,3 +94,4 @@ TODO
 ----
 * Add Navigation Functionality.
 * Add Tabbar like Tweeter App.
+* Create Twitter Pagging in Swift Language
